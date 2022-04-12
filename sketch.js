@@ -14,6 +14,9 @@ function draw() {
   textStyle(BOLD);
   textSize(140);
   text("yee", 60, 250);
+
+  const b = new Ball(5, createVector(50, 50), 50, "red");
+  b.draw();
 }
 
 // This Redraws the Canvas when resized
